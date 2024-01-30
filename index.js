@@ -1,2 +1,5 @@
-var h1 = document.getElementById("h1")
-h1.style.color="blue"
+var h1 = document.getElementById("#h1")
+
+function change(){
+    h1.style.backgroundcolor="red"
+}
